@@ -13,6 +13,7 @@ The database container Dockerfile contains the MySQL image and init commands to 
 Run the command 
 ```docker
 docker compose up -d 
+```
 
 to run the compose file and creates the services described. Connection to app and db is established and entries are added/updated. The default bridge network can also be used. In case, the services are running in seperate containers on the same host, it is beneficial to create custom defined network in bridge driver mode. Other used docker commands are as below:
 
@@ -21,6 +22,7 @@ docker network inspect mywebapp_network1
 docker network connect <network> <container>
 docker ps --all
 docker container inspect <containerID>
+```
 
 
 
