@@ -1,4 +1,4 @@
-# Web-Db-Docker
+# Web-MySQL-Dockercompose
 WebApp to update/insert records into MySQL database. The app and the db containers are created here.
 
 # Container - Application
